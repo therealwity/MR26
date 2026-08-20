@@ -168,6 +168,8 @@ public class ConceptAprilTagLocalization extends LinearOpMode {
 
                 .build();
 
+
+
         // Adjust Image Decimation to trade-off detection-range for detection-rate.
         // eg: Some typical detection data using a Logitech C920 WebCam
         // Decimation = 1 ..  Detect 2" Tag from 10 feet away at 10 Frames per second
