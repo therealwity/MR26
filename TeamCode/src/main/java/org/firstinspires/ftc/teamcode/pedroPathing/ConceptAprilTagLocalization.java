@@ -68,6 +68,7 @@ import java.util.List;
 //@Disabled
 public class ConceptAprilTagLocalization extends LinearOpMode {
 
+
     private static final boolean USE_WEBCAM = true;  // true for webcam, false for phone camera
 
     /**
