@@ -36,7 +36,9 @@ public class Constants {
                             RevHubOrientationOnRobot.LogoFacingDirection.UP,
                             RevHubOrientationOnRobot.UsbFacingDirection.LEFT
                     )
-            );
+            )
+            .forwardPodY(0)
+            .strafePodX(0);
 
     public static Follower createFollower(HardwareMap hardwareMap) {
         return new FollowerBuilder(followerConstants, hardwareMap)
