@@ -45,13 +45,13 @@ import java.util.List;
 public class Tuning extends SelectableOpMode {
     public static Follower follower;
 
-    @IgnoreConfigurable
+//    @IgnoreConfigurable
     static PoseHistory poseHistory;
 
-    @IgnoreConfigurable
+//    @IgnoreConfigurable
     static TelemetryManager telemetryM;
 
-    @IgnoreConfigurable
+//    @IgnoreConfigurable
     static ArrayList<String> changes = new ArrayList<>();
 
     public Tuning() {
